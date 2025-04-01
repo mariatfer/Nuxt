@@ -1,13 +1,11 @@
 <script setup lang="ts"></script>
 
 <template>
-  <header>
-    <nav>
-      <NuxtLink to="/catalogo">Catalogo</NuxtLink>
-    </nav>
-    <h1>Home</h1>
-  </header>
-  
+  <h1>Home</h1>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.main__title{
+  display: flex;
+}
+</style>
