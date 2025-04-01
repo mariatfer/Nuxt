@@ -9,6 +9,7 @@
           <li><NuxtLink to="/">Home</NuxtLink></li>
           <li><NuxtLink to="/catalogo">Catalogo</NuxtLink></li>
           <li><NuxtLink to="/productos">Productos</NuxtLink></li>
+          <li><NuxtLink to="/series-bonitas/">Series</NuxtLink></li>
         </ul>
       </nav>
     </header>
