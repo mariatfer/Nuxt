@@ -1,12 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+definePageMeta({ layout: false });
+</script>
 
 <template>
-  <header>
-    <nav>
-      <NuxtLink to="/">Home</NuxtLink>
-    </nav>
-    <h1>Catálogo</h1>
-  </header>
+  <div>
+    <NuxtLayout name="catalogo-layout">
+      <h1>Catálogo</h1>
+    </NuxtLayout>
+  </div>
 </template>
 
 <style lang="scss" scoped></style>
