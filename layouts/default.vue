@@ -8,6 +8,7 @@
         <ul class="header__nav--list">
           <li><NuxtLink to="/">Home</NuxtLink></li>
           <li><NuxtLink to="/catalogo">Catalogo</NuxtLink></li>
+          <li><NuxtLink to="/productos">Productos</NuxtLink></li>
         </ul>
       </nav>
     </header>
